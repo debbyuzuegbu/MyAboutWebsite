@@ -1,0 +1,80 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background: rgb(247, 247, 247);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/SweetiePotato.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding: 100px 0 0;
+    box-sizing: border-box;
+}
+
+.calculator {
+    height: 750px;
+    width: 400px;
+    background: #000;
+    border-radius: 10px;
+    /* box-shadow: #ededed 0px 4px 16px; */
+    padding: 40px 2%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.calculator .output {
+    height: 150px;
+    width: 100%;
+    color: #fff;
+    font-size: 100px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+table {
+    height: auto;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px 8px;
+}
+
+tr {
+    height: 90px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+tr td {
+    height: 80px;
+    width: 80px;
+    margin-right: 15px;
+    background-color: #4a4a49;
+    border-radius: 60%;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+td.longer-width {
+    margin-right: 9px;
+    border-radius: 40px;
+    text-align: left;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+td:last-child {
+    margin-right: 0;
+    background-color: #bd851c;
+}
+
+tr td.grey-bg {
+    background-color: #ababab;
+    color: #000;
+}

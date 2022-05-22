@@ -1,0 +1,82 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background: rgb(247, 247, 247);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/SweetiePotato.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding: 100px 0 0;
+    box-sizing: border-box;
+}
+
+.calculator {
+    height: 750px;
+    width: 400px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 10px;
+    /* box-shadow: #ededed 0px 4px 16px; */
+    padding: 40px 2%;
+    box-sizing: border-box;
+}
+
+.calculator .output {
+    height: 150px;
+    width: 100%;
+    color: #fff;
+    font-size: 100px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.controls {
+    height: auto;
+    width: 100%;
+}
+
+.calculator .row {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.row .column {
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+    background-color: #4a4a49;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.calculator .row.last-controls .column:first-child {
+    width: 150px;
+    margin-right: 9px;
+    border-radius: 40px;
+    text-align: left;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+.row .column:last-child {
+    margin-right: 0;
+    background-color: #bd851c;
+}
+
+.row .column.grey-bg {
+    background-color: #ababab;
+    color: #000;
+}

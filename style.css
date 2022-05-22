@@ -1,0 +1,390 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.white--color {
+    color: #fff !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    padding: 5px 2%;
+    box-sizing: border-box;
+}
+
+header .logo {
+    color: #fff;
+    width: 20%;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+header ul.left-navbar {
+    width: 50%;
+}
+
+header ul.right-navbar {
+    width: 30%;
+    text-align: right;
+    justify-content: right;
+}
+
+header ul {
+    display: flex;
+    color: #fff;
+    height: 40px;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+header ul li {
+    width: auto;
+    height: inherit;
+    font-size: 20px;
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+
+header ul li:first-child {
+    margin-right: 15px;
+}
+
+header ul li.rounded-btn a {
+    color: #000;
+}
+
+ul li.rounded-btn {
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    padding: 8px 13px;
+    box-sizing: border-box;
+}
+
+section.about-me {
+    margin: 0;
+    padding: 240px 0 10px;
+    box-sizing: border-box;
+    height: 700px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/IMG-6117.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-attachment: fixed;
+    top: 0;
+    left: 0;*/
+}
+
+section h2.big-text {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 55px;
+    width: 70%;
+    margin: 0 auto 20px;
+}
+
+section h3.small-text {
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+section .btn {
+    margin: 0 auto;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+section .change-btn-bg button:hover {
+    background: #000;
+    color: #ffff;
+    transition: ease-in-out;
+}
+
+.btn button {
+    width: inherit;
+    height: inherit;
+    background-color: #b88d44;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    border-radius: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section.hobbies {
+    height: 500px;
+    width: 100%;
+    padding: 40px 20px 0;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+section.hobbies h2.big-text {
+    color: #b88d44;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section.hobbies .underline {
+    width: 150px;
+    height: 2px;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+section.hobbies .container {
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+
+.container .row {
+    width: 32%;
+}
+
+.container .two-rows {
+    width: 50%;
+}
+
+.container .row:first-child, .container .row:nth-child(2) {
+    margin-right: 1%;
+}
+
+.container .row .image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px auto 5px;
+    /*background-color: #f0f0f0;*/
+    padding: 10px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.row .reading {
+    background-image: url("images/reading.png");
+    background-size: contain;
+}
+
+.row .cooking {
+    background-image: url("images/cooking.png");
+    background-size: contain;
+}
+
+.row .sleeping {
+    background-image: url("images/sleep.png");
+    background-size: contain;
+}
+
+.row .hobby-title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.row .hobby-text {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+section.education {
+    height: 500px;
+    width: 100%;
+}
+
+section.education .container {
+    display: flex;
+    height: inherit;
+    width: 100%;
+}
+
+.container .two-row {
+    width: 50%;
+    height: inherit;
+}
+
+.two-row.education-picture {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/graduation-hat.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.two-row.education-picture .education-text {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin: 200px auto 0;
+}
+
+.two-row.black-bg {
+    background: #000;
+    padding: 110px 20px 0;
+    box-sizing: border-box;
+}
+
+.two-row.black-bg .education-text-2 {
+    color: #fff;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.row .mvx {
+    background-image: url("images/mvx.png");
+    background-size: contain;
+}
+
+.row .fmc {
+    background-image: url("images/fmc.jpg");
+    background-size: contain;
+}
+
+.row .house {
+    background-image: url("images/HOUSE.jpg");
+    background-size: contain;
+}
+
+section.register {
+    background: rgb(247, 247, 247);
+    height: auto;
+    width: 100%;
+    padding: 20px 5%;
+    box-sizing: border-box;
+}
+
+section.register .container {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: #ededed 0px 4px 16px;
+}
+
+section.register .container .two-row:nth-child(2) {
+    background: rgb(38, 49, 57);
+}
+
+section.register .container .two-row:nth-child(1) {
+    background: #fff;
+    padding: 40px 2%;
+}
+
+.two-row:nth-child(1) h3.registration-form-header {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.two-row:nth-child(1) form {
+    height: auto;
+    width: 100%;
+}
+
+.two-row:nth-child(1) form .row {
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin: 0 auto 10px;
+}
+
+.two-row:nth-child(2) .form-summary-text {
+    color: #fff;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-top: 200px;
+    text-align: center;
+}
+
+form .row .input-box {
+    width: 48%;
+    height: auto;
+}
+
+
+form .row .input-box.full-row {
+    width: 100%;
+}
+
+.row .input-box label {
+    font-size: 14px;
+}
+
+.row .input-box input, .row .input-box select {
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid #ccc;
+    box-shadow: none;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.row .input-box button {
+    height: 50px;
+    width: 100%;
+    font-size: 17px;
+    background-color: rgb(38, 49, 57);
+    color: #fff;
+    font-weight: lighter;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    box-shadow: none;
+}
+
+.row .input-box textarea {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    box-shadow: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+form .row .input-box.column:first-child {
+    margin-right: 4%;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background: #000;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0 0;
+}
